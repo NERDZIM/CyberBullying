@@ -1,16 +1,3 @@
-// script.js
-const toggleButton = document.getElementById('theme-toggle');
-const body = document.body;
-
-toggleButton.addEventListener('click', function () {
-  body.classList.toggle('dark-theme');
-  
-  if (body.classList.contains('dark-theme')) {
-    toggleButton.textContent = 'Mudar para Tema Claro';
-  } else {
-    toggleButton.textContent = 'Mudar para Tema Escuro';
-  }
-});
 const form = document.getElementById('denunciaForm');
 
 form.addEventListener('submit', (event) => {
@@ -27,9 +14,6 @@ form.addEventListener('submit', (event) => {
     // Exibir uma mensagem de sucesso (ajuste conforme necessário)
     alert('Denúncia enviada com sucesso! Nossa equipe entrará em contato.');
 });
-
-
-
 
 function toggleMenu() {
   const menuContent = document.getElementById('menu-content');
