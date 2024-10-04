@@ -1,37 +1,25 @@
 .menu {
   position: fixed; 
-  top: 10px; 
-  left: 10px; 
-  z-index: 1000; 
+  top: 10px;       
+  left: 10px;      
+  z-index: 1000;  
 }
 
 .menu-icon {
   font-size: 30px;
   cursor: pointer;
+  color: black;   
 }
+
 
 .menu-content {
   display: none;
-  position: absolute;
-  top: 40px;
-  left: 10px;
+  position: fixed;
+  top: 50px;      
+  left: 10px;      
   background-color: #333;
   color: white;
   padding: 10px;
   border-radius: 5px;
-  z-index: 1000; 
+  z-index: 1001;   
 }
-
-.menu-content button {
-  background-color: #444;
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.menu-content button:hover {
-  background-color: #555;
-}
-
