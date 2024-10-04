@@ -23,3 +23,18 @@
   border-radius: 5px;
   z-index: 1001;   
 }
+
+.dark-theme {
+  background-color: #222; 
+  color: white; 
+}
+
+
+.dark-theme .menu-content {
+  background-color: #555;
+}
+
+.dark-theme button {
+  background-color: #666;
+  color: white;
+}

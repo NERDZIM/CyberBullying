@@ -19,8 +19,7 @@ function toggleMenu() {
   menuContent.style.display = (menuContent.style.display === 'block') ? 'none' : 'block';
 }
 
-
 function toggleTheme() {
   const body = document.body;
-  body.classList.toggle('dark-theme');
+  body.classList.toggle('dark-theme'); 
 }
