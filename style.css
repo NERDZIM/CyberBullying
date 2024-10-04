@@ -11,7 +11,6 @@
   color: black;   
 }
 
-
 .menu-content {
   display: none;
   position: fixed;
@@ -28,7 +27,6 @@
   background-color: #222; 
   color: white; 
 }
-
 
 .dark-theme .menu-content {
   background-color: #555;
