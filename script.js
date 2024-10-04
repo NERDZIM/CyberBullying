@@ -27,31 +27,9 @@ form.addEventListener('submit', (event) => {
     // Exibir uma mensagem de sucesso (ajuste conforme necessário)
     alert('Denúncia enviada com sucesso! Nossa equipe entrará em contato.');
 });
-const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('nome_do_banco', 'usuario', 'senha', {
-  host: 'localhost',
-  dialect: 'mysql'   
 
-});
 
-// Definindo um modelo para representar uma tabela
-const User = sequelize.define('user', {
-  username: Sequelize.STRING,
-  email: Sequelize.STRING
-});
-
-// Criando um usuário
-User.create({
-  username: 'johnDoe',
-  email: 'johndoe@example.com'
-})
-.then(user => {
-  console.log(user.toJSON());
-})
-.catch(err => {
-  console.error(err);
-});
 
 function toggleMenu() {
   const menuContent = document.getElementById('menu-content');
