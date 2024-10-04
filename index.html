@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncia de Cyberbullying</title>
+</head>
+<body>
+
+    <h1>Denuncie o Cyberbullying</h1>
+    <form id="denunciaForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required>
+
+        <label for="jogo">Jogo:</label>
+        <select id="jogo" name="jogo" required>
+            <option value="">Selecione um jogo</option>
+            <option value="Minecraft">Minecraft</option>
+            <option value="valorant">valorant/option>
+            <option value="cs go2">cs go2</option>
+            <option value="fortnite">fortnite</option>
+            </select>
+
+        <label for="descricao">Descrição da denúncia:</label>
+        <textarea id="descricao" name="descricao" rows="5" required></textarea>
+
+        <button type="submit">Enviar Denúncia</button>
+    </form>
+</body>
+</html>
